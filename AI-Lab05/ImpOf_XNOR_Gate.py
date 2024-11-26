@@ -1,4 +1,4 @@
-# USING XOR Gate
+
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
@@ -139,7 +139,7 @@ np.random.seed(2)
 X = np.array([[0, 0, 1, 1], [0, 1, 0, 1]])
 
 #The outputs of the XOR for every example in X
-Y = np.array([[0, 1, 1, 0]])
+Y = np.array([[1, 0, 0, 1]])
 
 #No. of training examples
 m = X.shape[1]
